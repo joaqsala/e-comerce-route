@@ -34,7 +34,7 @@ Product.init(
       validate: {
         isNumeric: true,
     },
-  },
+    },
     category_id: {
       type: DataTypes.INTEGER,
       // This references the `category` model, which was set in `Category.js` in the`modelName` property
